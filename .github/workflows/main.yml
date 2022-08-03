@@ -28,7 +28,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 3.1.x
       # Runs a single command using the runners shell
       - name: Restore dependencies
         run: dotnet restore
